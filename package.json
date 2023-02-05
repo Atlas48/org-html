@@ -1,0 +1,32 @@
+{
+  "name": "org-html",
+  "version": "1.0.0",
+  "description": "Render org-mode files to HTML.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"not implemented\"; return 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ADDLATER"
+  },
+  "keywords": [
+    "org-mode",
+    "html",
+    "converter"
+  ],
+  "author": "Atlas Cove",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "@orgajs/reorg": "^3.1.7",
+    "@orgajs/reorg-rehype": "^3.0.10",
+    "orga": "^3.2.1",
+    "rehype-stringify": "^9.0.3",
+    "unified-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5"
+  }
+}
