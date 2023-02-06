@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Render org-mode files to HTML.",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "echo \"not implemented\"; return 1"
+    "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "ADDLATER"
+    "url": "https://github.com/Atlas48/org-html"
   },
   "keywords": [
     "org-mode",
@@ -26,6 +26,7 @@
     "unified-stream": "^2.0.0"
   },
   "devDependencies": {
+    "chai": "^4.3.7",
     "mocha": "^10.2.0",
     "typescript": "^4.9.5"
   }
